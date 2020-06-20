@@ -1,6 +1,6 @@
 const Footer = () => (
     <footer>
-        <p>Copyright fonscode 2020</p>
+        <p>Copyright fonscode {new Date().getFullYear()}</p>
     </footer>
 )
 
