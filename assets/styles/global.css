@@ -16,14 +16,13 @@ header{
     grid-template-rows: 80px 1fr;
     background-image: url('/banner.jpg');
     background-size: cover;
-    padding-top: 30px;
 }
 .navbar{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 90px;
 }
 
 .navbar__logo{
