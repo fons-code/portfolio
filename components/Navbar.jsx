@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar is-transparent navbar-container">
       <div className="navbar__logo">Fonscode</div>
       <nav className="navbar__menu">
         <ul>

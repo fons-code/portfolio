@@ -10,6 +10,7 @@ const Header = () => (
             that perform
           </h1>
           <p>UI designer / Full stack web developer</p>
+          <button className="button is-primary">Hire me!</button>
         </div>
       </div>
     </header>
