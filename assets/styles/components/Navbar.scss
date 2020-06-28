@@ -8,22 +8,22 @@
 
 .navbar__logo{
     color: $color-white;
-    font-size: 24px;
+    font-size: 2em;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 1rem;
 }
 .navbar__menu ul{
     display: flex;
     justify-content: center;
-    margin-right: 30px;
+    margin-right: 1em;
 }
 
 .navbar__menu ul li{
-    margin: 0 30px;
+    margin: 0 1em;
     list-style: none;
 }
 .navbar__menu ul li a{
     color: $color-white;
-    font-size: 24px;
+    font-size: 2em;
     text-decoration: none;
 }

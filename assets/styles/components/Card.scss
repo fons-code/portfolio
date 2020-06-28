@@ -1,6 +1,6 @@
 .skillcard{
     margin-top: 7%;
-    min-width: 400px;
+    min-width: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,4 +48,18 @@
     margin: 10px 20px;
     font-size: 24px;
     color: $color-white;
+}
+@media only screen and (max-width: 500px) {
+    .skillcard{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .skillcard-content{
+        margin: 0;
+    }
+    .skillcard-image img{
+        margin: 10px 0;
+    }
 }

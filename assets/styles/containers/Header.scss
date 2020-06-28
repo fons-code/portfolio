@@ -6,6 +6,7 @@ header{
     grid-template-rows: 80px 1fr;
     background-image: url('/banner.jpg');
     background-size: cover;
+    margin-bottom: 60px;
 }
 
 .header__content{
@@ -28,7 +29,7 @@ header{
     padding: 0;
 }
 .header__content p{
-    font-size: 36px;
+    font-size: 2em;
 }
 .header__content button{
     max-width: 300px;
@@ -43,6 +44,9 @@ header{
 }
 
 @media screen and (max-width: 850px) {
+    .header__content{
+        margin: 0;
+    }
     .header__content h1 {
         font-size: 54px;
         text-align: center;

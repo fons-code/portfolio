@@ -1,8 +1,8 @@
 import Card from "../components/Card";
 
 const Skills = () => (
-  <section className="container is-fluid">
-    <div className="background">
+  <section className="container is-fluid mb-5">
+    <div className="background mobile-hidden">
       <p className="bg-text">Skills</p>
     </div>
     <div className="content">
