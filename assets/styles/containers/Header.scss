@@ -21,8 +21,7 @@ header{
     flex-direction: column;
 }
 .header__content h1{
-    font-size: 5.4vw;
-    min-width: 4em;
+    font-size: 4em;
     font-weight: 600;
     letter-spacing: 2px;
     margin: 0;
@@ -31,7 +30,7 @@ header{
 .header__content p{
     font-size: 2em;
 }
-.header__content button{
+.header__button{
     max-width: 300px;
     min-width: 300px;
     letter-spacing: 2px;
@@ -39,7 +38,12 @@ header{
     height: 50px;
     margin: 20px 0px;
     background-color: $color-brand;
-    border: 1px solid $color-black;
+    border: 0;
+    color: $color-white;
+    transition: 1s;
+}
+.header__button:hover{
+    background-color: $color-item;
     color: $color-white;
 }
 
@@ -49,6 +53,7 @@ header{
     }
     .header__content h1 {
         font-size: 54px;
+        margin: 2rem;
         text-align: center;
         margin-left: auto;
         margin-right: auto;

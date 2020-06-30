@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/fons-code/portfolio#readme",
   "dependencies": {
+    "@tryghost/content-api": "^1.4.1",
     "bulma": "^0.9.0",
     "next": "^9.4.4",
     "react": "^16.13.1",
