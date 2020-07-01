@@ -6,6 +6,11 @@ const Navbar = () => {
       <div className="navbar__logo"><Link href="/"><a>Fonscode</a></Link></div>
       <nav className="navbar__menu mobile-hidden">
         <ul>
+        <li>
+            <Link href='/'>
+              <a>Home</a>
+            </Link>
+          </li>
           <li>
             <Link href='/portfolio'>
               <a>Portfolio</a>

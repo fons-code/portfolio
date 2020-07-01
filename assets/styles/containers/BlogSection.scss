@@ -1,17 +1,21 @@
 .blog-section{
     width: 100%;
 }
+.blog-section__header{
+    padding: 2em;
+    background-color: $color-black;
+
+}
 .blog-section__title{
+    margin: 0;
     font-size: 2.5em;
     font-weight: 500;
     color: $color-white;
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 0.5em;
 }
 .blog-section__subtitle{
     color: $color-white;
-    padding: 3em;
+    padding: 2em;
     text-align: center;
     font-size: 1.5em;
 }

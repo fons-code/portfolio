@@ -27,4 +27,9 @@
     color: $color-white;
     font-size: 1.2em;
     text-decoration: none;
+    transition: 0.5s;
+}
+.navbar__menu ul li a:hover{
+    border-bottom: 1px solid $color-white;
+    font-weight: 600;
 }
