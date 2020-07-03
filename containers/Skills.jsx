@@ -14,11 +14,13 @@ const Skills = () => (
           title="Frontend"
           badges={["ReactJS", "NextJS"]}
           img="/frontend-icon.svg"
+          key="1"
         />
         <Card
           title="UI design"
           badges={["Figma", "AdobeXD"]}
           img="/design-icon.svg"
+          key="2"
         />
         </div>
         <div className="column">
@@ -26,11 +28,13 @@ const Skills = () => (
           title="Backend"
           badges={["NodeJS", "Express"]}
           img="/backend-icon.svg"
+          key="3"
         />
         <Card
           title="Databases"
           badges={["MongoDB", "MySQL"]}
           img="/database-icon.svg"
+          key="4"
         />
         </div> 
       </div>

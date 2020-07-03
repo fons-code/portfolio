@@ -21,6 +21,7 @@ header{
     flex-direction: column;
 }
 .header__content h1{
+    font-family:$font-title;
     font-size: 4em;
     font-weight: 600;
     letter-spacing: 2px;

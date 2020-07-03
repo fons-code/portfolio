@@ -8,8 +8,8 @@ const Card = props => {
     <div className="skillcard-content">
       <h3>{title}</h3>
       <div className="skillcard-badge-container">
-        {badges.map((badge) => (
-            <div className="skillcard-badge">
+        {badges.map((badge,index) => (
+            <div className="skillcard-badge" key={index}>
                 <span>{badge}</span>
             </div>
         ))}

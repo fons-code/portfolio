@@ -1,22 +1,22 @@
 const Form = () => (
     <div className="container card p-3 background-black">
         <form>
-    <div class="field">
-      <label class="label text-white center">Email:</label>
-      <div class="control">
-        <input class="input" type="email" placeholder="Email" />
+    <div className="field">
+      <label className="label text-white center">Email:</label>
+      <div className="control">
+        <input className="input" type="email" placeholder="Email" />
       </div>
     </div>
-    <div class="field">
-      <label class="label text-white center">Subject:</label>
-      <div class="control">
-        <input class="input" type="text" placeholder="Subject" />
+    <div className="field">
+      <label className="label text-white center">Subject:</label>
+      <div className="control">
+        <input className="input" type="text" placeholder="Subject" />
       </div>
     </div>
-    <div class="field">
-      <label class="label text-white center">Message:</label>
-      <div class="control">
-        <textarea class="textarea" placeholder="Textarea"></textarea>
+    <div className="field">
+      <label className="label text-white center">Message:</label>
+      <div className="control">
+        <textarea className="textarea" placeholder="Textarea"></textarea>
       </div>
     </div>
     <div className="buttons mt-4">
