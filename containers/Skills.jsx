@@ -1,37 +1,44 @@
-import Card from '../components/Card'
-import '../assets/styles/containers/Skills.module.scss'
+import Card from "../components/Card";
 
 const Skills = () => (
-    <section className="skills">
-      <div className="background">
-        <p className="bg-text">Skills</p>
+  <section className="container is-fluid mb-5">
+    <div className="background mobile-hidden">
+      <p className="bg-text">Skills</p>
+    </div>
+    <div className="content">
+      
+      <h1><hr/>Skills</h1>
+      <div className="columns">
+        <div className="column">
+        <Card
+          title="Frontend"
+          badges={["ReactJS", "NextJS"]}
+          img="/frontend-icon.svg"
+          key="1"
+        />
+        <Card
+          title="UI design"
+          badges={["Figma", "AdobeXD"]}
+          img="/design-icon.svg"
+          key="2"
+        />
+        </div>
+        <div className="column">
+        <Card
+          title="Backend"
+          badges={["NodeJS", "Express"]}
+          img="/backend-icon.svg"
+          key="3"
+        />
+        <Card
+          title="Databases"
+          badges={["MongoDB", "MySQL"]}
+          img="/database-icon.svg"
+          key="4"
+        />
+        </div> 
       </div>
-      <div className="content">
-        <hr />
-        <h1>Skills</h1>
-        <div className="skills__cards-container">
-          <Card 
-            title='Frontend' 
-            badges = {['ReactJS', 'NextJS']}
-            img='/frontend-icon.svg'
-          />
-          <Card 
-            title='UI design' 
-            badges = {['Figma', 'AdobeXD']}
-            img='/design-icon.svg'
-          />
-          <Card 
-            title='Backend' 
-            badges = {['NodeJS', 'Express']}
-            img='/backend-icon.svg'
-          />
-          <Card 
-            title='Databases' 
-            badges = {['MongoDB', 'MySQL']}
-            img='/database-icon.svg'
-          />
-        </div>  
-      </div>
-    </section>
-)
+    </div>
+  </section>
+);
 export default Skills;

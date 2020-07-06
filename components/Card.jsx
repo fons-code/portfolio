@@ -1,17 +1,15 @@
-import '../assets/styles/components/Card.module.scss'
-
 const Card = props => {
   const {title,badges,img} = props
   return(
-  <div className="card">
-    <div className="card-image">
+  <div className="skillcard">
+    <div className="skillcard-image">
       <img src={img} alt={title} />
     </div>
-    <div className="card-content">
+    <div className="skillcard-content">
       <h3>{title}</h3>
-      <div className="card-badge-container">
-        {badges.map((badge) => (
-            <div className="card-badge">
+      <div className="skillcard-badge-container">
+        {badges.map((badge,index) => (
+            <div className="skillcard-badge" key={index}>
                 <span>{badge}</span>
             </div>
         ))}
